@@ -1,0 +1,139 @@
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+body {
+	font-family: Lato;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+}
+
+header {
+	margin-bottom: 26px;
+}
+
+.container {
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: Lato;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+}
+
+img {
+	max-width: 100%;
+	margin-bottom: 60px;
+}
+
+.paragraph-1,
+.paragraph-4 {
+	font-family: Lato;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+}
+
+.paragraph-1,
+.paragraph-2,
+.paragraph-5,
+ul {
+	margin-bottom: 24px;
+}
+
+.text,
+.quote {
+	margin-bottom: 48px;
+}
+
+.paragraph-4 {
+	padding-left: 58px;
+	background: url("../img/icons/braces.svg") 0 0 no-repeat;
+}
+
+.list li {
+	margin-bottom: 4px;
+	padding-left: 32px;
+	background: url("../img/icons/check.svg") 0 5px no-repeat;
+}
+
+.paragraph-6 {
+	margin-bottom: 60px;
+}
+
+.test-1 {
+	background-color: rgba(235, 155, 155, 0.87);
+	margin-bottom: 90px;
+}
+
+.test__container {
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+.paragraph-7 {
+	background-color: rgb(101, 101, 235);
+}
+
+.paragraph-8 {
+	background-color: rgba(104, 48, 48, 0.479);
+}
+
+.paragraph-9 {
+	background-color: rgba(105, 59, 148, 0.644);
+}
+
+.test-2 {
+	background-color: rgba(177, 201, 129, 0.555);
+
+}
+
+.block-1 {
+	padding: 15px;
+	background: green url("../img/face.png") 0 0 no-repeat;
+}
+
+.block-2 {
+	padding: 20px;
+	background-image: url("../img/photo_2022-04-23_15-45-31.jpg");
+}
+
+.block-3 {
+	background-image: url("../img/face.png");
+	background-repeat: repeat-x;
+	background-size: contain;
+}
+
+.block-4 {
+	background-image: url("../img/face.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 10%;
+}
